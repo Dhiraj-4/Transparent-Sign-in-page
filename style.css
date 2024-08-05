@@ -68,7 +68,7 @@ input::placeholder{
 .card .form .forget_remember .forget a{
     text-decoration: none;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
 }
 .card .form .forget_remember .forget a:hover{
     text-decoration: underline;
@@ -101,7 +101,7 @@ input::placeholder{
 .card .form .Account span a{
     text-decoration: none;
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
 }
 .card .form .Account span a:hover{
     text-decoration: underline;

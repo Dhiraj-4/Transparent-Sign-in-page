@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <form class="form" action="#" target="_self">
+            <div class="username">
+                <input placeholder="Username" required minlength="3" ="text">
+            </div>
+
+            <div class="password">
+                <input title="password must be 8 charecter long" minlength="8" pattern="[A_Za-z0-9.@-_%!#$^&*()=-]" required type="password" placeholder="Password">
+            </div>
+
+            <div class="forget_remember">
+                <div class="remember">
+                    <input id="checkbox" type="checkbox" required>
+                    <label for="checkbox">Remember Me</label>
+                </div>
+
+                <div class="forget">
+                    <a href="#">Forget Password?</a>
+                </div>
+            </div>
+            <div class="sign_in">
+                <input type="submit">
+            </div>
+
+            <div class="Account">
+                <span>Don't have an Account? <a href="https://dhiraj-4.github.io/Transparent-sign-up-page/">Sign-up</a></span>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    padding: 1rem;
+    height: 330px;
+    width: 350px;
+    flex: 0 0 auto;
+    background:transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 10px;
+}
+.card .form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+input{
+    background: transparent;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    border: 2px solid rgba(255,255,255,1);
+    outline: none;
+    width: 85%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 0 15px 0 10px;
+}
+input::placeholder{
+    color: #fff ;
+    font-weight: 400;
+}
+.card .form .username{
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+}
+.card .form .password{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.card .form .forget_remember{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1rem;
+}
+.card .form .forget_remember .forget a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.card .form .forget_remember .forget a:hover{
+    text-decoration: underline;
+}
+.card .form .forget_remember .remember{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .form .forget_remember .remember input{
+    height: 1rem;
+    width: 1.5rem;
+    accent-color: #fff;
+}
+.card .form .sign_in{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .form .sign_in input{
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+}
+.card .form .Account {
+    display: flex;
+    justify-content: center;
+}
+.card .form .Account span a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+.card .form .Account span a:hover{
+    text-decoration: underline;
+}
+
+
